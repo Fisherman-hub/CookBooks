@@ -1,0 +1,152 @@
+[
+  {"model": "CookBook.Ingredients",
+    "pk": 1,
+    "fields": {
+      "ingredient": "Сыр твердый"
+    }
+  },
+  {"model": "CookBook.Ingredients",
+    "pk": 2,
+    "fields": {
+      "ingredient": "Яйцо"
+    }
+  },
+  {"model": "CookBook.Ingredients",
+    "pk": 3,
+    "fields": {
+      "ingredient": "Мука"
+    }
+  },
+  {"model": "CookBook.Ingredients",
+    "pk": 4,
+    "fields": {
+      "ingredient": "Масло растительное"
+    }
+  },
+{"model": "CookBook.Ingredients",
+    "pk": 5,
+    "fields": {
+      "ingredient": "Майонез"
+    }
+  },
+  {"model": "CookBook.Ingredients",
+    "pk": 6,
+    "fields": {
+      "ingredient": "Соль "
+    }
+  },
+  {"model": "CookBook.Ingredients",
+    "pk": 7,
+    "fields": {
+      "ingredient": "Колбаса"
+    }
+  },
+  {"model": "CookBook.Ingredients",
+    "pk": 8,
+    "fields": {
+      "ingredient": "Сыр "
+    }
+  },
+  {"model": "CookBook.Ingredients",
+    "pk": 9,
+    "fields": {
+      "ingredient": "Помидор"
+    }
+  },
+  {"model": "CookBook.Ingredients",
+    "pk": 10,
+    "fields": {
+      "ingredient": "Огурцы соленые "
+    }
+  },
+  {"model": "CookBook.Ingredients",
+    "pk": 11,
+    "fields": {
+      "ingredient": "Лук репчатый"
+    }
+  },
+  {"model": "CookBook.Ingredients",
+    "pk": 12,
+    "fields": {
+      "ingredient": "Чеснок"
+    }
+  },
+  {"model": "CookBook.Ingredients",
+    "pk": 13,
+    "fields": {
+      "ingredient": "Кетчуп"
+    }
+  },
+  {"model": "CookBook.Ingredients",
+    "pk": 14,
+    "fields": {
+      "ingredient": "Перец молотый"
+    }
+  },
+    {"model": "CookBook.Ingredients",
+    "pk": 15,
+    "fields": {
+      "ingredient": "Молоко"
+    }
+  },
+    {"model": "CookBook.Ingredients",
+    "pk": 16,
+    "fields": {
+      "ingredient": "Сахар"
+    }
+  },
+    {"model": "CookBook.Ingredients",
+    "pk": 17,
+    "fields": {
+      "ingredient": "Разрыхлитель"
+    }
+  },
+    {"model": "CookBook.Ingredients",
+    "pk": 18,
+    "fields": {
+      "ingredient": "Сосиски"
+    }
+  },
+    {"model": "CookBook.Ingredients",
+    "pk": 19,
+    "fields": {
+      "ingredient": "Рис"
+    }
+  },
+    {"model": "CookBook.Ingredients",
+    "pk": 20,
+    "fields": {
+      "ingredient": "Лук репчатый"
+    }
+  },
+    {"model": "CookBook.Ingredients",
+    "pk": 21,
+    "fields": {
+      "ingredient": "Помидор"
+    }
+  },
+    {"model": "CookBook.Ingredients",
+    "pk": 22,
+    "fields": {
+      "ingredient": "Томатная паста"
+    }
+  },
+    {"model": "CookBook.Ingredients",
+    "pk": 23,
+    "fields": {
+      "ingredient": "Петрушка свежая"
+    }
+  },
+    {"model": "CookBook.Ingredients",
+    "pk": 24,
+    "fields": {
+      "ingredient": "Болгарский перец"
+    }
+  },
+    {"model": "CookBook.Ingredients",
+    "pk": 25,
+    "fields": {
+      "ingredient": "Картофель"
+    }
+  }
+]

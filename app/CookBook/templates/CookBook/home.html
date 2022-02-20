@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+
+{% block title %}
+{{ title }}
+{% endblock %}
+
+{% block body %}
+
+<div class="row m-3">
+    <div class="col-2">
+        <div class="list-group">
+            {% for ingredient in ingredients %}
+            <a href="{% url 'filter_recipes' ingredient.pk %}" class="list-group-item list-group-item-action">{{
+                ingredient }}</a>
+            {% endfor %}
+        </div>
+
+    </div>
+    <div class="col">
+        {% for recipe in recipes %}
+        <div class="card">
+            <div class="card-header">
+                <a class="list-group-item list-group-item-action list-group-item-primary"
+                   href="#"><h5>{{recipe.title}}</h5>
+                </a>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-3">
+                        <img src="{{ recipe.photo_food.url }}" class="img-fluid" alt="{{ recipe.photo_food.url }}">
+                    </div>
+                    <div class="col">
+                        <div class="card-header">
+
+
+                            {% for ingredient in recipe.ingredients.all %}
+                            <ul class="list-group list-group-horizontal">
+                                <a href="#" class="list-group-item list-group-item-action list-group-item-info">
+                                    {{ ingredient.ingredient }}</a>
+                            </ul>
+                            {% endfor %}
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <!--<div>-->
+    <!--    <div class="navbar-fixed-bottom row-fluid">-->
+    <!--        <div class="navbar-inner">-->
+    <!--            <div class="container">-->
+    <!--                <ul class="nav nav-pills nav-fill">-->
+    <!--                    {% if page_obj.has_next %}-->
+    <!--                    <li class="nav-item m-3">-->
+    <!--                        <a class="nav-link active" href="?page={{ page_obj.next_page_number }}">Следующая страница</a>-->
+    <!--                    </li>-->
+    <!--                    {% endif %}-->
+    <!--                    {% if page_obj.has_previous %}-->
+    <!--                    <li class="nav-item m-3">-->
+    <!--                        <a class="nav-link active" href="?page={{ page_obj.previous_page_number }}">Предыдущая-->
+    <!--                            страница</a>-->
+    <!--                    </li>-->
+    <!--                    {% endif %}-->
+    <!--                </ul>-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--    </div>-->
+
+    <!--</div>-->
+</div>
+{% endblock %}
